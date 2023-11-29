@@ -1,0 +1,14 @@
+@import url(./reset.css);
+
+.menu{
+    width: 1400px;
+    height: 56px;
+
+    display: flex;
+
+}
+
+.menu-content{
+    display: block;
+    padding: 0 24px 0 24px;
+}
