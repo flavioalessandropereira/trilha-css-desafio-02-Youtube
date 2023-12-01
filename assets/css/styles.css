@@ -1,14 +1,66 @@
 @import url(./reset.css);
 
 .menu{
-    width: 1400px;
     height: 56px;
+    width: 1400px;
 
     display: flex;
 
+     /* alinhamento horizontal */
+    justify-content: space-between;  
+
+    /* alinhamento vertical */
+    align-items: center;
+    
+    padding: 0 24px 0 24px;
+
+
 }
 
-.menu-content{
-    display: block;
-    padding: 0 24px 0 24px;
+.menu-left{
+    height: 24px;
+    width: 146px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu-left #menu{
+    height: 24px;
+    width: 24px;
+}
+
+.menu-left #youtube1{
+    height: 20px;
+    width: 90px;
+}
+
+.menu-center{
+    height: 40px;
+    width: 404px;
+
+    display: flex;
+}
+
+#search{
+
+}
+
+.menu-right{
+    height: 34px;
+    width: 130px;
+
+    
+    justify-content: space-around;
+    
+
+   
+
+}
+
+#imgEu{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
 }

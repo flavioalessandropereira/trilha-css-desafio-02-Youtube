@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Youtuber</title>
+    <title>YouTube Clone</title>
 </head>
 <body>
 
     <header class="menu">
-        <div class="menu-content">
-            <img src="./assets/img/menu.png" alt="">
-            <img src="./assets/img/youtube1.png" alt="">
+        <div class="menu-left">
+            <img src="./assets/img/menu.png" id="menu" alt="">
+            <img src="./assets/img/youtube1.png" id="youtube1" alt="">
         </div>
+
+        <div class="menu-center">
+            <input type="text" name="" id="search">
+            <button type="button">
+                <img src="./assets/img/search.png" alt="">
+            </button>
+        </div>
+
+        <div class="menu-right">
+            <img src="./assets/img/video.png" alt="imagem de uma camera">
+            <img src="./assets/img/bell.png" alt="imagem sino">
+            <img src="./assets/img/avatarEu.png" id="imgEu" alt="imagem da foto da pessoa que está logado no Youtube">
+
+        </div>
+
 
     </header>
 
@@ -21,14 +36,15 @@
     </nav>
 
     <main>
-
+        <section class="video">
+            <iframe width="713" height="401" src="https://www.youtube.com/embed/UFDdhqQ3WE0" title="Rap do Pennywise (IT: A Coisa) - O PALHAÇO | NERD HITS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <h2>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h2>
     </main>
 
     <footer>
         
     </footer>
 
-
-    <iframe width="713" height="401" src="https://www.youtube.com/embed/UFDdhqQ3WE0" title="Rap do Pennywise (IT: A Coisa) - O PALHAÇO | NERD HITS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </body>
 </html>
