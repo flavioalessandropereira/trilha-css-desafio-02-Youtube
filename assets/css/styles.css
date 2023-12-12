@@ -248,6 +248,23 @@
     font-weight: bold;
 }
 
+.visualizacao p{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.resumo{
+    height: 64px;
+    width: 510px;
+    text-align: justify;
+}
+
+.resumo p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
 /* barra lateral direita */
 
 .video{
