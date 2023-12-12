@@ -1,10 +1,9 @@
 Game: https://flexboxfroggy.com/
 
 
+justify-content: flex-start => Items align to the left side of the container.
 
 - justify-content => propriedade, que alinha os itens horizontalmente
-
-justify-content: flex-start => Items align to the left side of the container.
 justify-content: flex-end => Items align to the right side of the container.
 justify-content: center => Items align at the center of the container.
 justify-content: space-between => Items display with equal spacing between them.
