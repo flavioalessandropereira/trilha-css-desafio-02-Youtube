@@ -97,7 +97,7 @@
     max-width: 1200px; /* Defina a largura máxima do contêiner conforme necessário */
     display:flex;
 
-    margin: 30px auto;
+    margin: 20px;
 }
 
 /* ---- WATCHING VIDEO ----- */
@@ -246,4 +246,59 @@
     font-size: 12px;
     font-weight: 400;
     font-weight: bold;
+}
+
+/* barra lateral direita */
+
+.video{
+    height: 940px;
+    width: 370px;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 15px 
+
+
+}
+
+
+.column1{
+    /* margin-right: 10px; */
+    width: 160px;
+    margin: 0 10px 10px 0;
+
+}
+
+.column1 img{
+    margin-bottom: 20px;
+    width: 160px;
+    height: 90px;
+}
+
+
+.column2{
+    width: 179px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    height: 90px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 24px;
+}
+
+.titulo{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.subtitulo, .subtitulo1{
+    font-size: 12px;
+    font-weight: 400;
 }
