@@ -1,8 +1,10 @@
 @import url(./reset.css);
 
+
+/* ---- MENU ----- */
 .menu{
     height: 56px;
-    width: 1400px;
+    
 
     display: flex;
 
@@ -12,9 +14,7 @@
     /* alinhamento vertical */
     align-items: center;
     
-    padding: 0 24px 0 24px;
-
-
+    padding: 0 20px 0 20px;
 }
 
 .menu-left{
@@ -23,7 +23,6 @@
 
     display: flex;
     justify-content: space-between;
-
 }
 
 .menu-left #menu{
@@ -41,26 +40,210 @@
     width: 404px;
 
     display: flex;
+    
 }
 
-#search{
+.menu-center #search{
+    height: 40px;
+    width: 348px;
 
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    border: 1px solid gray;
+   
+    
 }
+
+.menu-center #button-search{
+    height: 40px;
+    width: 60px;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    border: 1px solid gray;
+    
+}
+
 
 .menu-right{
     height: 34px;
     width: 130px;
 
-    
-    justify-content: space-around;
-    
+    display: flex;
 
-   
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.menu-right img{
+    height: 24px;
+    width: 24px;
+}
+
+.menu-right #imgEu{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+
+/* ---- VIDEO ----- */
+
+.container {
+
+    max-width: 1200px; /* Defina a largura máxima do contêiner conforme necessário */
+    display:flex;
+
+    margin: 30px auto;
+}
+
+/* ---- WATCHING VIDEO ----- */
+
+.watching-video{
+    height: 750px;
+    width: 950px;
+}
+
+.watching-video p{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title{
+    height: 23px;
+    width: 870px;
+}
+
+/* ---- INFORMATION VIDEO ----- */
+
+.video-actions{
+    height: 42px;
+    width: 900px ;
+    display: flex;
+    /* align-items:; */
+    
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.channel-info{
+    margin: 0px;
+    height: 42px;
+    width: 160px;
+
+    display: flex;
+}
+
+#dio-img {
+    margin-right: 10px;
+    width: 42px;
+    height: 42px;
+}
+
+
+.channel-inscritos{
+    /* height: 32px;
+    width: 106px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.channel-inscritos strong{
+    font-size: 12px;
+    font-weight: 400;
+    font-weight: bold;
+    margin: 0;
 
 }
 
-#imgEu{
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
+.channel-inscritos p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#button-signUp{
+    height: 40px;
+    width: 160px;
+
+    background-color: red;
+    color: white;
+
+    border: 0;
+    border-radius: 2px;
+
+    font-size: 400;
+}
+
+.like{
+    height: 40px;
+    width: 63px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-around
+    
+}
+
+.like p{
+    font-size: 12px;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.deslike{
+    height: 40px ;
+    width: 100px ;
+    display: flex;
+    align-items: center;
+    justify-content:space-around
+}
+
+.deslike p{
+    font-size: 12px;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+
+
+.share{
+    height: 40px ;
+    width: 115px ;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.share p{
+    font-size: 12px;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.download{
+    height: 40px;
+    width: 95px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.download p{
+    font-size: 12px;
+    font-weight: 400;
+    font-weight: bold;
 }
