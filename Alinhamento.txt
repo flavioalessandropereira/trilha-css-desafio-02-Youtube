@@ -13,7 +13,7 @@ justify-content: space-around => Items display with equal spacing around them.
 justify-content: flex-start => os itens são alinhados ao lado esquerdo do contêiner.
 justify-content:flex-end => os itens são alinhados ao lado direito do contêiner.
 justify-content:center => os itens são alinhados no centro do contêiner.
-justify-content:space-between => Os itens são exibidos com espaçamento igual entre eles.
+justify-content:space-between => os itens são exibidos com espaçamento igual entre eles.
 justify-content:space-around => os itens são exibidos com espaçamento igual ao seu redor.
 
 
@@ -40,5 +40,5 @@ flex-direction: column-reverse => Items are placed bottom to top.
 
 flex-direction: row => os itens são colocados na mesma direção do texto.
 flex-direction: row-reverse => os itens são colocados na direção oposta à do texto.
-flex-direction: column => Os itens são colocados de cima para baixo.
-flex-direction: column-reverse => Os itens são colocados de baixo para cima.
+flex-direction: column => os itens são colocados de cima para baixo.
+flex-direction: column-reverse => os itens são colocados de baixo para cima.
