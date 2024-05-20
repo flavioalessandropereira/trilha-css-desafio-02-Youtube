@@ -42,7 +42,7 @@ Este projeto é sugerido pela plataforma DIO, e você pode acessar o protótipo 
 
 ### 💽 Repositório no GitHub:
 
-Confira o [Projeto Clone YOUTUBE](https://flavioalessandropereira.github.io/trilha-css-desafio-02-Youtube/){:target="_blank"}, para ver como ficou a reprodução da página do YOUTUBE.
+Confira o <a href="https://flavioalessandropereira.github.io/trilha-css-desafio-02-Youtube/" target="_blank">Projeto Clone YouTube</a> para ver como ficou a reprodução da página do YouTube.
 
 ## 👨‍💻 Sobre
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/flavioalessandropereira/)
